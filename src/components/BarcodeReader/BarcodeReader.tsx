@@ -41,7 +41,7 @@ class BarCodeReader extends React.Component<any, myState> {
         <div className="container">
           <div className="logo-container">
             <img src={logoSvg} alt="logo" className="logo-image" />
-            <h1 className="logo-title">Boycott Center</h1>
+            <h1 className="logo-title">No Thanks Scanner</h1>
           </div>
           <VideoDecode setScanNumber={this.setScanNumber}></VideoDecode>
           {this.state.scanNumber !== 0 && (
